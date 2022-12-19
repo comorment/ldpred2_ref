@@ -37,6 +37,6 @@ cf51f0286f726025471125a9445c1541  LD_with_blocks_chr7.rds
 
 ```
 map_ldref <- readRDS('map_hm3_plus.rds');
-write.csv(map_ldref$rsid, 'map_hm3_plus.justrs', row.names=F, quote=F)
+write.table(map_ldref$rsid, 'map_hm3_plus.justrs', row.names=F, quote=F)
 ```
 
